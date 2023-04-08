@@ -4,15 +4,21 @@
 ## 特性
 ⚡️ Vue 3, Vite 3, pnpm, ESBuild - born with fastness
 
-🗂 File based routing
+🗂 基于文件的路由
 
-📦 Components auto importing
+📦 组件自动引入
 
-🎨 TailwindCSS - atomic CSS engine.
+🎨 TailwindCSS - 原子化 CSS engine.
 
-😃 Use icons from any icon sets in Pure CSS
+😃 随时随地使用任何Icon图标
 
-🔥 Use the new `<script setup> style`
+🔥 使用setup语法糖 `<script setup> style`
+
+🐺 使用 @VueUse
+
+📭 开箱即用的Login页面跳转
+
+🎗️ 开始新建项目吧
 
 ## 使用degit初始化
 
