@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#app {
+  height: 100%;
+  /* color: #1d1d1d; */
+  font-size: 14px;
+  /* background-color: #262735; */
+  overflow: hidden;
+}
+
+@layer components {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  .flex-col-center {
+    @apply flex flex-col items-center justify-center;
+  }
+  .full-full {
+    @apply w-full h-full;
+  }
+ 
+}

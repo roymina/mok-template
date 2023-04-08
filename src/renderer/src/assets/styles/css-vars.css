@@ -1,0 +1,9 @@
+html {
+  background-color: rgb(247, 247, 252);
+}
+html.dark {
+  /* 自定义深色背景颜色 */
+  --el-bg-color: #262735;
+  background-color: #262735;
+}
+ 
