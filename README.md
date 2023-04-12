@@ -20,11 +20,22 @@
 
 🎗️ 开始新建项目吧
 
-## 使用degit初始化
+# 如何使用
+
+1. 使用degit初始化（推荐）
 
 `npx degit git@github.com:roymina/mok-template.git`
+
+2. 或者直接clone本项目(clone到本地后删除.git文件夹)
+3. pnpm i, pnpm dev
 
 ## 其它
 - 已添加`ElementPlus`支持，不需要的话去`vite.config.js`中移除即可
 - 已配置mirror-config-china, 解决elecrton打包问题：https://www.npmjs.com/package/mirror-config-china
+- 主要文件（夹）
+  - src
+    - main: electron nodejs 
+    - preload: renderer和electron通讯
+    - renderer：SPA前端（vue3+pinia+tailwind+iconify+Element Plus...） 
+  - `electron.vite.config.js`中配置vite相关选项
 
