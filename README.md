@@ -1,3 +1,7 @@
+![https://github.com/roymina/mok-template](https://img.shields.io/badge/mok-electron%2Bvite-brightgreen) 
+![https://tailwindcss.com/](https://img.shields.io/badge/tailwind-v3-blue)
+![https://vitejs.dev/](https://img.shields.io/badge/vite-fast-yellowgreen)
+![https://vueuse.org/](https://img.shields.io/badge/%40vueuse-yes-lightgrey)
 # Mok Template
 一个现代Vue3+Vite+Electron+tailwindcss桌面开发模板
  
